@@ -1,0 +1,58 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Yeseva One', cursive; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* justify-content: center; */
+    align-items: center;
+}
+#yeseva-text{
+    font-family: 'Yeseva One', cursive;
+    color: #333333;
+    font-weight: 500;
+}
+.orange-text{
+    font-family: 'Yeseva One', cursive;
+    color: orange;
+    font-weight: 500;
+}
+p{
+    font-size: 14px;
+}
+
+.person-img img{
+    width: 350px;
+}
+.left-para p{
+    margin-right: 150px;
+}
+.btn{
+    background-color: #FF5959;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.side-line{
+    border-left: 3px solid #FF5959;
+    border-radius: 1px;
+}
+#blue-text{
+    color: #13103A;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.orange-text-normal{
+    color: orange;
+}
