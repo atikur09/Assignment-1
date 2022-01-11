@@ -12,13 +12,13 @@ body{
     display: flex;
     width: 80%;
     margin: 0 auto;
-    /* justify-content: center; */
     align-items: center;
 }
 #yeseva-text{
     font-family: 'Yeseva One', cursive;
     color: #333333;
     font-weight: 500;
+    padding-left: 10px;
 }
 .orange-text{
     font-family: 'Yeseva One', cursive;
@@ -48,11 +48,79 @@ p{
     border-left: 3px solid #FF5959;
     border-radius: 1px;
 }
+
+.cards{
+    width: 80%;
+    margin: 0 auto;
+}
+.cards h1{
+    font-weight: bolder;
+    font-size: 48px;
+}
 #blue-text{
     color: #13103A;
-    font-size: 36px;
-    font-weight: bolder;
+    text-align: center;
 }
-.orange-text-normal{
+.color-text{
     color: orange;
+}
+.all-cards{
+    display: flex;
+    justify-content: space-around;
+
+}
+.mission{
+    background-color: #EDF5F6;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.mission p{
+    color: #424242;
+}
+.photo-cards img{
+    width: 200px;
+}
+.description{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.vision{
+    background-color: #FFEEEE; 
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.vision p{
+    color: #424242;
+}
+.goals{
+    background-color: #FFF4D6; 
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.goals p{
+    color: #424242;
+}
+
+.coding-img img{
+    width: 350px;
+    margin-top: 60px;
+    margin-left: 130px;
+    
+}
+.right-side{
+    margin-left: 60px;
+    margin-right: 80px;
+}
+
+.bg-shape{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    background-size: 200px 210px;
+    background-repeat: no-repeat;
+    background-position-y: 105px;
+    background-position-x: 40px;
 }
