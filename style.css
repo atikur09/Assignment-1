@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
     align-items: center;
 }
-#yeseva-text{
+.yeseva-text{
     font-family: 'Yeseva One', cursive;
     color: #333333;
     font-weight: 500;
@@ -147,4 +147,75 @@ p{
     right: 50px;
     margin-top: 50px;
     z-index: -1;
+}
+/* app seection starts */
+
+.optioanl-heading{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -80px;
+    padding: 1em;
+    
+}
+.optioanl-heading-2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.workout{
+    color: #FFAD5A;
+}
+.workout-app img{
+    width: 200px;
+}
+
+.app-right-side{
+    margin-left: 200px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+}
+.workout-app img{
+    margin-left: 10em;
+}
+
+.bg-shape-1 img{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    left: 60px;
+    top: 132em;
+    z-index: -1;
+}
+.bg-shape-2 img{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 95px;
+    top: 154.4em;
+    z-index: -1;
+}
+
+.bg-shape-3 img{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 17.2em;
+    top: 143em;
+    z-index: -1;
+}
+.footer{
+    text-align: center;
+    background-color: #0B0D17;
+    height: 170px;
+}
+.footer-text{
+    font-family: 'Yeseva One', cursive;
+    color: white;
+    font-weight: 400;
+    padding-top: 40px;
+}
+#footer-p{
+    color: #D9DBE1;
+    font-family: font-family: 'Manrope', sans-serif;
+    font-size: 11px;
 }
