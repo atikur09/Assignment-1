@@ -27,6 +27,7 @@ body{
 }
 p{
     font-size: 14px;
+    color: #424242;
 }
 
 .person-img img{
@@ -74,9 +75,9 @@ p{
     border-radius: 20px;
     margin-right: 20px;
 }
-.mission p{
+/* .mission p{
     color: #424242;
-}
+} */
 .photo-cards img{
     width: 200px;
 }
@@ -110,7 +111,7 @@ p{
 }
 .right-side{
     margin-left: 60px;
-    margin-right: 80px;
+    margin-right: 150px;
 }
 
 .bg-shape{
@@ -123,4 +124,28 @@ p{
     background-repeat: no-repeat;
     background-position-y: 105px;
     background-position-x: 40px;
+}
+.community{
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.left-sec{
+    margin-left: 130px;
+    padding-right: 60px;
+}
+.meeting-img img{
+    width: 350px;
+    margin-right: 150px;
+}
+.meeting-img{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    background-position: right;
+    background-size: 200px 210px;
+    background-position-y: 260px;
+    margin-left: 60px;
+    
+
 }
